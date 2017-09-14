@@ -11866,6 +11866,30 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Reference</p>
+<ul>
+<li>PDSH Chapters 2 and 3</li>
+</ul>
+<p>Reading</p>
+<ul>
+<li>Visualization with Matplotlib<ul>
+<li>General MatplotLib Tips</li>
+<li>Simple Line Plots</li>
+<li>Simple Scatter Plots</li>
+<li>Multiple Subplots</li>
+<li>Text and Annotation</li>
+<li>Visualization with Seaborn</li>
+</ul>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="ETL">ETL<a class="anchor-link" href="#ETL">&#182;</a></h2>
 </div>
 </div>
@@ -11912,6 +11936,15 @@ a.anchor-link {
 </div>
 </div>
 </div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="http://101.datascience.community/wp-content/uploads/2016/11/data-science-engineer-software.png"></p>
+
+</div>
+</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -17392,7 +17425,34 @@ This bitch needs to make a visit to Columbia 🤔
 <h3 id="API-using-Flask">API using Flask<a class="anchor-link" href="#API-using-Flask">&#182;</a></h3>
 </div>
 </div>
-</div></section></section>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">flask</span> <span class="k">import</span> <span class="n">Flask</span>
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+<span class="nd">@app</span><span class="o">.</span><span class="n">route</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">hello</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s2">&quot;Hello World!&quot;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><code>FLASK_APP=hello_flask.py flask run</code></p>
+
+</div>
+</div>
+</div></div></section></section>
 </div>
 </div>
 
